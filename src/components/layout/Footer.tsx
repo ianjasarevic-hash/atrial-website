@@ -20,18 +20,18 @@ export default function Footer() {
     return (
         <footer className="bg-secondary text-white relative">
             {/* Bonitet Logo - Bottom Right */}
-            <a href="https://www.companywall.si/" target="_blank" rel="noopener noreferrer" className="absolute bottom-40 right-8 w-[300px] h-[150px]">
+            <a href="https://www.companywall.si/" target="_blank" rel="noopener noreferrer" className="absolute bottom-40 right-4 sm:right-8 w-[150px] h-[75px] sm:w-[250px] sm:h-[125px]">
                 <img
                     src="/bonitet-logo.png"
                     alt="Bonitet"
                     className="w-full h-full object-contain"
                 />
             </a>
-            <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 sm:gap-12">
                     {/* Brand */}
                     <div className="md:col-span-2">
-                        <div className="w-[500px] h-[500px] mb-6 -mt-[200px]">
+                        <div className="w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] mb-4 sm:mb-6 -mt-[100px] sm:-mt-[150px]">
                                 <img
                                     src="/atrial-logo.png"
                                     alt="ATRIAL"
