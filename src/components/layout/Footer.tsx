@@ -22,7 +22,7 @@ export default function Footer() {
             {/* Bonitet Logo - Bottom Right */}
             <a href="https://www.companywall.si/" target="_blank" rel="noopener noreferrer" className="absolute bottom-40 right-4 sm:right-8 w-[150px] h-[75px] sm:w-[250px] sm:h-[125px]">
                 <img
-                    src="/bonitet-logo.png"
+                    src="/atrial-website/bonitet-logo.png"
                     alt="Bonitet"
                     className="w-full h-full object-contain"
                 />
@@ -33,7 +33,7 @@ export default function Footer() {
                     <div className="md:col-span-2">
                         <div className="w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] mb-4 sm:mb-6 -mt-[100px] sm:-mt-[150px]">
                                 <img
-                                    src="/atrial-logo.png"
+                                    src="/atrial-website/atrial-logo.png"
                                     alt="ATRIAL"
                                     className="w-full h-full object-contain"
                                 />

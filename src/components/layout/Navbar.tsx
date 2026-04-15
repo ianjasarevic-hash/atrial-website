@@ -39,7 +39,7 @@ export default function Navbar() {
           {/* Logo - not clickable */}
           <div className="w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] -my-10 sm:-my-16">
               <img
-                src="/atrial-logo.png"
+                src="/atrial-website/atrial-logo.png"
                 alt="ATRIAL"
                 className="w-full h-full object-contain"
               />
@@ -62,7 +62,7 @@ export default function Navbar() {
           {/* Bonitet Logo - Center */}
           <a href="https://www.companywall.si/" target="_blank" rel="noopener noreferrer" className="hidden md:block w-[120px] h-[60px] lg:w-[200px] lg:h-[100px]">
               <img
-                src="/bonitet-logo.png"
+                src="/atrial-website/bonitet-logo.png"
                 alt="Bonitet"
                 className="w-full h-full object-contain"
               />
