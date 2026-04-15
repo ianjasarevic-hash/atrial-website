@@ -34,10 +34,10 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo - not clickable */}
-          <div className="w-[300px] h-[300px] block -my-16">
+          <div className="w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] -my-10 sm:-my-16">
               <img
                 src="/atrial-logo.png"
                 alt="ATRIAL"
@@ -46,7 +46,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6 lg:gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -60,7 +60,7 @@ export default function Navbar() {
           </div>
 
           {/* Bonitet Logo - Center */}
-          <a href="https://www.companywall.si/" target="_blank" rel="noopener noreferrer" className="hidden md:block w-[240px] h-[120px]">
+          <a href="https://www.companywall.si/" target="_blank" rel="noopener noreferrer" className="hidden md:block w-[120px] h-[60px] lg:w-[200px] lg:h-[100px]">
               <img
                 src="/bonitet-logo.png"
                 alt="Bonitet"
@@ -104,12 +104,12 @@ export default function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-white border-t"
           >
-            <div className="px-6 py-4 space-y-4">
+            <div className="px-4 sm:px-6 py-4 space-y-4">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="block py-2 text-lg font-medium hover:text-primary transition-colors"
+                  className="block py-2 text-base sm:text-lg font-medium hover:text-primary transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.name}
