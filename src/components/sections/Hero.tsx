@@ -16,7 +16,7 @@ export default function Hero() {
           fill
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-neutral/70" />
+        <div className="absolute inset-0 bg-neutral/40" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32 relative z-10">
@@ -31,29 +31,29 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 py-2 bg-primary/10 text-primary font-medium text-xs sm:text-sm rounded-full mb-6 sm:mb-8"
+              className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 py-2 bg-white/20 text-white font-medium text-xs sm:text-sm rounded-full mb-6 sm:mb-8"
             >
               <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
               Inženiring in projektiranje
             </motion.span>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-secondary mb-4 sm:mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight drop-shadow-lg">
               Kakovostna{" "}
               <span className="text-primary">projektna</span>{" "}
               dokumentacija
             </h1>
 
-            <p className="text-base sm:text-lg lg:text-xl text-gray-700 mb-8 sm:mb-10 max-w-lg leading-relaxed">
+            <p className="text-base sm:text-lg lg:text-xl text-white drop-shadow-md mb-8 sm:mb-10 max-w-lg leading-relaxed">
               Specializirano podjetje za celovite rešitve na področju projektiranja,
               inženiringa in pridobivanja dokumentacije za gradnjo.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-5">
               <Link href="/contact">
-                <Button size="lg" className="shadow-lg shadow-primary/25 w-full sm:w-auto">Brezplačna ponudba</Button>
+                <Button size="lg" className="shadow-lg shadow-primary/25 w-full sm:w-auto !text-white !border-white hover:!bg-white hover:!text-primary">Brezplačna ponudba</Button>
               </Link>
               <Link href="/services">
-                <Button variant="outline" size="lg" className="border-gray-500 text-secondary hover:bg-primary hover:text-white w-full sm:w-auto">
+                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary w-full sm:w-auto">
                   Naše storitve
                 </Button>
               </Link>
