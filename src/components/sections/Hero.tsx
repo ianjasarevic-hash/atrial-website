@@ -38,7 +38,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-5">
             <Link href="/contact">
-              <Button size="lg" className="w-full sm:w-auto bg-white text-primary hover:bg-gray-100">Brezplačna ponudba</Button>
+              <Button size="lg" className="w-full sm:w-auto">Brezplačna ponudba</Button>
             </Link>
             <Link href="/services">
               <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary w-full sm:w-auto">
